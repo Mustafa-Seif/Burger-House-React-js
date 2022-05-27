@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+body{
+  margin:0px;
+  padding: 0px;
+  background-color: #ffffff;
+  font-family:'Bebas Neue', 'Lato', sans-serif;
+
+}
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+}
+button{
+  outline: none;
+  border: none;
+}
+input{
+  outline: none;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* ------------------media --------------------- */
+
+
+ @media(max-width:1190px){
+	.parent-links a{
+    display: none;
   }
+  .parent-links i{
+    font-size: 25px;
+    display: block !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu{
+  top:0
+}
+
+form{
   display: flex;
   flex-direction: column;
+  width: 450px !important;
+  margin: 0 auto;
+}
+	
+    
+
+}
+
+@media(max-width:990px){
+  .banner{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 20px;
+    margin-bottom: 230px !important;
+    position: relative !important;
+  }
+
+  .order{
+    position: absolute !important;
+    top: 250px !important;
+
+  }
+  .menu{
+    top:0
+  }
+
+  .order p{
+    font-size: 30px !important;
+}
+
+.order h1{
+	font-size: 40px !important;
+}
+
+.order span{
+
+    border-bottom: 2px solid #3d2514;
+    color: red;
+}
+
+.order h5{
+    margin-top: 50px;
+	font-family:'Bebas Neue';
+
+}
+
+.order button {
+    width:120px !important;
+	  height: 50px !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    margin: 0 auto;
+}
+
+
+/* ------------------Products---------------------- */
+
+.Products {
+  margin-top:500px !important;
+
+}
+
+.Products h1{
+  font-size: 35px !important;
+  margin-top: 350px !important;
+}
+
+.Products p{
+  font-family:'Bebas Neue';
+  font-size: 25px !important;
+}
+
+
+.Products-card{
+  flex-direction: column !important;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 100px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.card-burger:hover{
+  box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card img{
+  width: 200px;
+}
+
+/* -----------------Upcoming------------------ */
+
+
+
+.Upcoming{
+  margin-top: 50px;
+
+  box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column !important;
+padding: 50px 5% 50px 5% !important;
+
+
+  /* position: relative; */
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+}
+
+
+.text h1{
+font-size: 35px !important;
+color:#3d2514;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Alfa Slab One';
+}
+
+/* --------------------contact------------------------ */
+
+
+.contact h1{
+  font-size: 35px !important;
+  color:#3d2514;
+  font-weight: 500;
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Alfa Slab One';
+      margin-bottom: 80px;      
+}
+
+
+
+
+}
+
+@media(max-width:480px){
+  form{
+  display: flex;
+  flex-direction: column;
+  width: 250px !important;
+  margin: 0 auto;
+}
+
 }

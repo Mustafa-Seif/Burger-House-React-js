@@ -1,0 +1,102 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 4px 1px beige;
+    padding: 15px 0;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	background-color: #ffffff;
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
+
+    
+}
+.parent-links{
+    margin-right: 20px;
+
+}
+
+.logo img{
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav a {
+    font-family: 'Bebas Neue';
+	height:40px;
+	line-height: 43px;
+	margin: 20px;
+	padding: 5px 22px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#3d2514;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #bf2222;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+	transition: all ease 0.2s;
+}
+
+.parent-links i{
+    display: none;
+    cursor: pointer;
+}
+
+.menu{
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: -1000px;
+    background-color: #fff;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 150px;
+    transition: 1s;
+    
+}
+
+.menu a{
+    color: #bf2222;
+    margin-bottom: 40px;
+}
+
+
+.menu a:hover{
+    background-color: #bf2222;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+	transition: all ease 0.2s;
+    padding: 10px;
+}
+
+
+.menu i {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu i:hover{
+    animation: mymove 1s ;
+}
+
+@keyframes mymove {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+  
