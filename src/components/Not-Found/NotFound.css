@@ -1,0 +1,44 @@
+
+
+
+.NotFound {
+
+    text-align: center;
+    font-family:'Alfa Slab One';
+	font-size: 50px;
+	letter-spacing: 2px;
+	color:#3d2514;
+    text-transform:uppercase;
+    line-height: 1.4em;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column ;
+
+}
+
+.NotFound h1{
+
+    text-align: center;
+    font-family:'Alfa Slab One';
+	font-size: 50px;
+	letter-spacing: 2px;
+	color:#3d2514;
+    text-transform:uppercase;
+    line-height: 1.4em;
+ 
+
+}
+
+
+
+
+.NotFound .Link{
+    text-align: center;
+    font-family:'Alfa Slab One';
+	font-size: 20px;
+	color:#b15f24;
+    text-transform:uppercase;
+    line-height: 1.4em;
+
+
+}

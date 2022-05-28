@@ -24,10 +24,10 @@ const Nav = () => {
                     <img src={logo} alt="logo"></img>
                 </div>
                 <div className='parent-links'>
-                    <Link to='/'>Home</Link>
-                    <Link to='/products'>Products</Link>
-                    <Link to='/upComing'>About</Link>
-                    <Link to='/contact'>Contact</Link>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/products'>Products</NavLink>
+                    <NavLink to='/upComing'>About</NavLink>
+                    <NavLink to='/contact'>Contact</NavLink>
                     <i class="fa-solid fa-bars"  onClick={show}></i>
                 </div>
             </nav>
