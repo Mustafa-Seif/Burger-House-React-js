@@ -59,7 +59,19 @@ form{
 
 .contact form input[type="submit"]{
     height: 45px;
-    background: linear-gradient(90deg, #bf2222 20%,#bf2222);
+    background-color: brown;
     color: #ffffff;
     text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+
+.contact form input[type="submit"]:hover{
+    background-color: #ffffff;
+    transition: all ease 0.5s;
+    color: #3d2514;
+    border: 2px solid #3d2514;
+    background-color: #ffffff;
+
 }
